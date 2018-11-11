@@ -1,0 +1,33 @@
+@masacr3 (LeonelR)
+
+Falcultad de Ingenieria Universidad de Buenos Aires (FIUBA)
+
+Esta herramienta fue diseñada para crear un archivo 'makefile' de
+forma veloz para testeos de aplicaciones hechas en 'C'
+
+#Para agregar los archivos .c seguira el siguiente patron
+  CFILES = file1.c,file2.c,file3...filen
+
+#el nombre del ejecuta ira despues de agregar los archivos
+  EXEC = 'nombre-del-ejecutable'
+
+USO:
+
+  ./rTool CFILES EXEC
+
+Esto creara un archivo 'makefile2' por las dudas que alla otro makefile
+
+Se deja abajo un script para dejar todo OK.
+
+  mv makefile2 makefile
+
+
+ACLARACIONES:
+  No esta controlado la entrada de parametros
+  Queda a responsabilidad del usuario la correcta entrada de datos
+
+Futuro:
+  agregar comandos al (RUN) para testeos
+
+
+CONTACTO: leorhcp2030@gmail.com
